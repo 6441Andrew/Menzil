@@ -1,0 +1,89 @@
+h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: coral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: chat 5s ease-out infinite;
+}
+body{
+    overflow: hidden;
+}
+
+@keyframes chat {
+    from{color: coral;animation-delay: 3s;}
+    to{color:gold;}
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+    color: lime;
+}
+.container{
+    width: 660px;
+    height: 346px;
+    border: 2px solid chocolate;
+    margin-left: 200px;
+    background: fixed;
+    border-radius: 50px 50px;
+    border-style: inset;
+    background-color: honeydew;
+}
+.msgHeader>p{
+    font-size: 14px;
+    font-family: cursive;
+    color: hotpink;
+    text-align-last: center;
+    
+}
+.msgBody>h3{
+    color: orange;
+    text-align-last: center;
+}
+.msgBody{
+    margin: 80px auto;
+    display: ruby-base;
+}
+.msgFooter>h4{
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 0px;
+    background:fixed;
+}
+.submit{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: darkgoldenrod;
+}
+.chatBox1{
+    width: 200px;
+    height: 145px;
+    border: 2px solid chartreuse;
+    float: left;
+    margin-top: 0px;
+
+}
+.chatBox2{
+    width: 200px;
+    height: 145px;
+    border: 2px solid chartreuse;
+    float: right;
+    margin-top: 0px;
+}
+input[type="text"]{
+    width: 190px;
+    height: 100px;
+}
+.chatBox1>input[type="button"]{
+    width: 50px;
+    height: 40px;
+    border-radius:10px;
+    background: magenta;
+}
+.chatBox2>input[type="button"]{
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+    background: mediumblue;
+}
